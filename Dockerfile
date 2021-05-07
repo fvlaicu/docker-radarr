@@ -1,4 +1,4 @@
-FROM linuxserver/radarr:nightly
+FROM linuxserver/radarr
 
 RUN apt-get update
 RUN apt-get install --no-install-recommends -y \
